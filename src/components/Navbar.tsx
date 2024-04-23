@@ -17,7 +17,7 @@ function Navbar() {
           <button>00,00</button>
         </div>
 
-        <button className="h-full pl-2 ml-8 pr-2 bg-primary-500 hover:bg-primary-700 active:bg-primary-700 active:border-b-4 active:border-secondary-500 focus:border-b-4 focus:border-secondary-500 focus:bg-primary-700">
+        <button className="h-full px-5 ml-8 bg-primary-500 hover:bg-primary-700 active:bg-primary-700 active:border-b-4 active:border-secondary-500 focus:border-b-4 focus:border-secondary-500 focus:bg-primary-700">
           Meus Dados
         </button>
       </div>
