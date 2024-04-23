@@ -3,7 +3,7 @@ import ibetLogo from "../assets/logo.svg";
 
 function Navbar() {
   return (
-    <div className="bg-primary-500 flex justify-between mb-3 text-white pb-0.5 text-xl">
+    <div className="bg-primary-500 flex justify-between text-white pb-1 text-xl border-b-2 border-black">
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={ibetLogo} className="pl-2" alt="Vite logo" />
