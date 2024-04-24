@@ -1,8 +1,4 @@
-import {
-  ArrowLeftIcon,
-  ChatBubbleOvalLeftIcon,
-  MagnifyingGlassIcon,
-} from "@heroicons/react/16/solid";
+import { ArrowLeftIcon, MagnifyingGlassIcon } from "@heroicons/react/16/solid";
 
 function SearchBar() {
   return (
