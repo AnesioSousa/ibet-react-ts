@@ -8,8 +8,10 @@ function PageContent() {
     <>
       <AdBanner />
       <SearchBar />
-      <Ranking />
-      <MatchesTable />
+      <div className="flex justify-between">
+        <MatchesTable />
+        <Ranking />
+      </div>
     </>
   );
 }
