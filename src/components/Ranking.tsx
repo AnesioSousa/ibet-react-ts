@@ -1,6 +1,8 @@
 import { useState } from "react";
 import trophyLogo from "../assets/trophy.svg";
-import ranking from "../data/ranking-data.js";
+import ranking from "<div styleName={} />
+<data value="" />
+<ranking-data className="t"></ranking-data>s";
 
 type Apostador = {
   id: number;
