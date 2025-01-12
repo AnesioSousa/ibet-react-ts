@@ -1,14 +1,26 @@
 import { useState } from "react";
 import trophyLogo from "../assets/trophy.svg";
-import ranking from "<div styleName={} />
-<data value="" />
-<ranking-data className="t"></ranking-data>s";
+
+interface RankingItem {
+  id: number;
+  usuario: string;
+  estrelas: number;
+}
 
 type Apostador = {
   id: number;
   usuario: string;
   estrelas: number;
 };
+
+const ranking: RankingItem[] = [
+  { id: 0, usuario: "MarquinhosDaXJ", estrelas: 5 },
+  { id: 1, usuario: "JoaoApostador", estrelas: 4.5 },
+  { id: 2, usuario: "MariaApostadora", estrelas: 4 },
+  { id: 3, usuario: "PedroAposta", estrelas: 3 },
+  { id: 4, usuario: "AnaApostadora", estrelas: 2.5 },
+  { id: 5, usuario: "CarlosApostador", estrelas: 4.8 },
+];
 
 function Ranking() {
   const [maxEstrelas] = useState(5); // Define o número máximo de estrelas
